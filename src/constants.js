@@ -22,44 +22,34 @@ export const SKILLS = [
   "Firebase",
   "Puppeteer",
   "Git",
-  "Wordpress"
+  "Wordpress",
 ];
 
 export const EXPERIENCES = [
+
   {
-    title: "FullStack Engineer - Echo.inc",
-    description: `Developed a React application for uploading audio files to a backend server. Implemented backend functionality using Node.js and Express.js to handle audio file uploads and integrate with OpenAI's Whisper API for transcription. Utilized Multer middleware for efficient handling of file uploads in Node.js. Collaborated with team members to ensure seamless integration between the frontend and backend systems. Ensured the security and reliability of the application by implementing best practices in web development and API usage. Conducted testing and debugging to resolve issues and optimize performance.`,
-    year: `January 2024 - March 2024`,
-    stack: ["React", "NodeJS", "ExpressJS", "OpenAI"],
+    title: "React Developer - Switzel.co",
+    state: "Kubwa, Abuja",
+    description: `Working in a team to develop a responsive React.js app for Hemam Synergy, boosting performance and user experience across devices. Also led UI improvements and optimized load times.`,
+    year: `2022`,
+    stack: ["React", "Tailwind"],
   },
 
   {
-    title: "Wordpress Developer - Englewoodcity.inc",
-    description: `Collaborated closely with stakeholders to understand their needs and deliver a tailored Wordpress solution that aligned with their brand identity. Created and developed a comprehensive website and blog using Wordpress for Englewoodcity. Customized Wordpress themes and plugin to meet the client’s specific requirements and design preferences. Implemented responsive design principles to ensure optimal functionality and userexperience across various devices. Provide ongoing maintenance, updates, and technical support, ensuring the website’s seamless operation and security.`,
+    title: "Wordpress Developer - Englewoodcity.inc (contract)",
+    state: "Ikeja, Lagos",
+
+    description: `Delivered a tailored WordPress site for Englewoodcity, aligning with brand identity. Customized themes, plugins and provided maintenance and support.`,
     year: `October 2023 – December 2023`,
     stack: ["Wordpress", "CSS3"],
   },
 
   {
-    title: "React Developer - Switzel.co",
-    description: `Contracted to develop and maintain responsive web application using React Js for Hemam Synergy, ensuring optimal user experiences across various devices and screen sizes. Worked with a functional team to gather and define project requirements. Conducted code reviews and contributed to the improvement of coding standards and best
-    practices within the development team. Developed user interface utilizing React js and Tailwind. Optimized the web application performance by identifying and addressing rendering issues, resulting in a significant improvement in loading time.`,
-    year: `July 2023 – September 2023 `,
-    stack: ["React", "Tailwind"],
-  },
-
-  {
-    title: "Software Developer Intern - ICDAT Academia",
-    description: `Collaborated with other developers to ensure code quality and functionality. Deployed web application on various cloud platforms such as AWS. Developed, tested and deployed several web applications using React. Developed user interface utilizing React and CSS3. Monitored system performance, identified and resolved software issues. Collaborated with other developers on the design of features for applications Constructed API calls from the frontend code to communicate with backend services. `,
-    year: `Nov 2022 – May 2023 `,
+    title: "Software Engineer - ICDAT",
+    state: "Ikeja, Lagos",
+    description: `specializing in building and deploying MERN applications. Collaborate with teams to ensure code quality, optimize performance, and deliver seamless user experiences.`,
+    year: `Nov 2023 – present`,
     stack: ["React js", "CSS"],
-  },
-
-  {
-    title: "Frontend Developer and Translator - BilingoPlus Limited, UA",
-    description: `Worked closely with UI UX designers and fellow frontend developers to build and maintain the company’s website. Developed reusable code to enhance the website performance and efficiency, resulting in faster loading times and improved user experience. Successfully worked remotely for the entire two-year contract period, ensuring seamless communication and teamwork. Utilized Bilingual skills to serve as a contracted translator for the company during periods ofhigh translation demand. Delivered high quality translation services, contributing to efficient completion of language related projects. `,
-    year: `July 2020 – Sep 2022 `,
-    stack: ["HTML", "CSS", "Javascript"],
   },
 ];
 

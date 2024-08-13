@@ -32,6 +32,10 @@ const Hero = () => {
           <Button
             icon={<MdArrowRightAlt />}
             text={"Contact me here"}
+            pulse={{
+              animation: "pulse 1s infinite",
+              animationDelay: "4s",
+            }}
             bg={"bg-[#1b1c1d]"}
             textColor={"text-white"}
           />

@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
 import { motion } from "framer-motion";
+import Experience from "./components/Experience";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -31,8 +32,8 @@ const App = () => {
       <motion.main
         id="home"
         className="app"
-        initial={{ opacity: 0.5, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0,translateX: "-100px" }}
+        animate={{ opacity: 1,translateX: 0,}}
         transition={{ type: "spring", stiffness: 300, damping: 15 }}
       >
         <NavigationBar />
@@ -41,6 +42,7 @@ const App = () => {
         <About />
         <Skills />
         <Projects />
+        <Experience/>
       </motion.main>
     </div>
   );
