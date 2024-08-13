@@ -30,7 +30,7 @@ export const EXPERIENCES = [
   {
     title: "React Developer - Switzel.co",
     state: "Kubwa, Abuja",
-    description: `Working in a team to develop a responsive React.js app for Hemam Synergy, boosting performance and user experience across devices. Also led UI improvements and optimized load times.`,
+    description: `Worked in a team to develop a responsive React.js app for Hemam Synergy, boosting performance and user experience across devices. Also led UI improvements and optimized load times.`,
     year: `2022`,
     stack: ["React", "Tailwind"],
   },

@@ -14,6 +14,8 @@ const Projects = () => {
             </div>
           );
         })}
+
+        <p id="experience"></p>
       </div>
     </section>
   );

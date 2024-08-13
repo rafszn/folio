@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-const Button = ({ icon: Icon, text = "", bg, textColor, pulse }) => {
+const Button = ({ icon: Icon, text = "", bg, textColor, pulse, href }) => {
   return (
-    <motion.button
+    <motion.a
       className={`${bg} ${textColor} `}
       whileHover={{
         scale: 1.01,
@@ -11,10 +11,13 @@ const Button = ({ icon: Icon, text = "", bg, textColor, pulse }) => {
         scale: 0.98,
       }}
       style={pulse}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       {text}
       {Icon}
-    </motion.button>
+    </motion.a>
   );
 };
 export default Button;

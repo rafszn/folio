@@ -38,6 +38,7 @@ const Hero = () => {
             }}
             bg={"bg-[#1b1c1d]"}
             textColor={"text-white"}
+            href={"https://wa.me/2347082201180"}
           />
           <Button
             icon={<CiSaveDown2 color="black" />}
@@ -45,7 +46,8 @@ const Hero = () => {
             bg={"bg-white"}
             textColor={"text-black"}
           />
-          <Button icon={<FaGithub color="black" />} bg={"bg-white"} />
+          <Button icon={<FaGithub color="black" />} bg={"bg-white"} 
+          href={"https://www.github.com/rafszn"}/>
           <Button icon={<FaX color="black" />} bg={"bg-white"} />
         </div>
       </div>

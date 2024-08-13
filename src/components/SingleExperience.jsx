@@ -1,5 +1,4 @@
 import { FaGraduationCap } from "react-icons/fa6";
-
 const SingleExperience = ({ experience, index }) => {
   let rowreverse = "";
   let justifyEnd = "";
@@ -20,6 +19,7 @@ const SingleExperience = ({ experience, index }) => {
         <h2>{experience.title}</h2>
         <h4>{experience.state}</h4>
         <p>{experience.description}</p>
+         <i>{experience.year}</i>
       </div>
       <div className="mid">
         <div className="svgWrapper">

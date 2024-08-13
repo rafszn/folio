@@ -8,11 +8,13 @@ import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
 import { motion } from "framer-motion";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
   const sleep = async function () {
-    await new Promise((resolve) => setTimeout(resolve, 5000));
+    await new Promise((resolve) => setTimeout(resolve, 2500));
   };
 
   useEffect(() => {
@@ -43,6 +45,8 @@ const App = () => {
         <Skills />
         <Projects />
         <Experience/>
+        <Contact/>
+        <Footer/>
       </motion.main>
     </div>
   );
