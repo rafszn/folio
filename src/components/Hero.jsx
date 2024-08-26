@@ -45,10 +45,18 @@ const Hero = () => {
             text={"Download CV"}
             bg={"bg-white"}
             textColor={"text-black"}
+            href={"/assets/uchechukwu CV.pdf"}
           />
-          <Button icon={<FaGithub color="black" />} bg={"bg-white"} 
-          href={"https://www.github.com/rafszn"}/>
-          <Button icon={<FaX color="black" />} bg={"bg-white"} />
+          <Button
+            icon={<FaGithub color="black" />}
+            bg={"bg-white"}
+            href={"https://www.github.com/rafszn"}
+          />
+          <Button
+            icon={<FaX color="black" />}
+            bg={"bg-white"}
+            href={"https://x.com/Raf_tech"}
+          />
         </div>
       </div>
     </section>

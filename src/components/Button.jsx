@@ -14,6 +14,7 @@ const Button = ({ icon: Icon, text = "", bg, textColor, pulse, href }) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      download={text === "Download CV"}
     >
       {text}
       {Icon}
