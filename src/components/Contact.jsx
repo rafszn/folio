@@ -39,7 +39,7 @@ const Contact = () => {
 
             <a
               className="link peach"
-              href="https://www.linkedin.com/in/rafael-okenyi"
+              href="https://www.linkedin.com/in/raphael-okenyi/"
             >
               <CiLinkedin />
               <p>Connect with me on LinkedIn</p>
