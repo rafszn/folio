@@ -67,7 +67,7 @@ export const PROJECTS = [
     description:
       "This web app is designed to detect deepfakes in only photos at the moment. It uses a pre-trained deepfake detection model and allows users to upload pictures for analysis.",
     stack: ["React", "CSS3", "TensorFlow.js"],
-    demoLink: "https://veriscan.netlify.app",
+    demoLink: "https://vscan.netlify.app",
     gitLink: "https://github.com/rafszn/DeepFake",
     img: "vscan.png",
   },
