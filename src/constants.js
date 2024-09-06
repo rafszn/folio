@@ -26,7 +26,6 @@ export const SKILLS = [
 ];
 
 export const EXPERIENCES = [
-
   {
     title: "React Developer - Switzel.co",
     state: "Kubwa, Abuja",
@@ -48,14 +47,32 @@ export const EXPERIENCES = [
     title: "Software Engineer - ICDAT",
     state: "Ikeja, Lagos",
     description: `specializing in building and deploying MERN applications. Collaborate with teams to ensure code quality, optimize performance, and deliver seamless user experiences.`,
-    year: `Nov 2023 – present`,
+    year: `Nov 2023 – 2024`,
     stack: ["React js", "CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "ECho - Speech recognition Web App",
+    title: "Prizeless - Price comparison App",
+    description:
+      "A platform for comparing prices across multiple online stores in Nigeria, helping users find the best deals and track price changes.",
+    stack: ["Puppeteer", "React", "NodeJS", "ExpressJS", "MongoDB"],
+    demoLink: "https://prodprizeless.netlify.app",
+    gitLink: "https://github.com/rafszn/Prizeless",
+    img: "prizeless.png",
+  },
+  {
+    title: "Vscan - Deepfake Detection App",
+    description:
+      "This web app is designed to detect deepfakes in only photos at the moment. It uses a pre-trained deepfake detection model and allows users to upload pictures for analysis.",
+    stack: ["React", "CSS3", "TensorFlow.js"],
+    demoLink: "https://github.com/rafszn/Veriscan.git",
+    gitLink: "https://github.com/rafszn/DeepFake",
+    img: "vscan.png",
+  },
+  {
+    title: "Echo - Speech recognition Web App",
     description:
       "This is a React application that allow users convert speech to text and upload audio files in various formats (e.g., mp3, wav) for transcription",
     stack: ["React", "NodeJS", "ExpressJS", "OpenAI"],
@@ -64,34 +81,34 @@ export const PROJECTS = [
     img: "echo.png",
   },
 
-  {
-    title: "Iris AI",
-    description:
-      "This web app is designed to detect various eye defects such as glaucoma, cataract, myopia, hyperopia, and more. It utilizes some custom functions paired with alist of questions provided for the user to analyze eye symptoms and provide insights into potential eye health issues.",
-    stack: ["React", "CSS3"],
-    demoLink: "https://irisai.netlify.app/",
-    gitLink: "https://github.com/rafszn/IrisAi",
-    img: "iris.png",
-  },
+  // {
+  //   title: "Hemam",
+  //   description:
+  //     "AN Agribusiness and energy company revolusionizing",
+  //   stack: ["React", "CSS3"],
+  //   demoLink: "https://irisai.netlify.app/",
+  //   gitLink: "https://github.com/rafszn/IrisAi",
+  //   img: "iris.png",
+  // },
 
-  {
-    title: "Chat App",
-    description: "A chat app that allows users chat with friends and family",
-    stack: ["React", "Firebase"],
-    demoLink: "https://aas.netlify.app",
-    gitLink: "https://github.com/rafszn/DeepFake",
-    img: "aas.png",
-  },
+  // {
+  //   title: "Chat App",
+  //   description: "A chat app that allows users chat with friends and family",
+  //   stack: ["React", "Firebase"],
+  //   demoLink: "https://aas.netlify.app",
+  //   gitLink: "https://github.com/rafszn/DeepFake",
+  //   img: "aas.png",
+  // },
 
-  {
-    title: "Real Estate and Construction App",
-    description:
-      "A wordpress application that provides solutions to common business and living challenges in environmentally efficient ways.",
-    stack: ["Wordpress", "CSS3", "JavaScript"],
-    demoLink: "https://englewoodcitydev.com/",
-    gitLink: "",
-    img: "englewood.png",
-  },
+  // {
+  //   title: "Real Estate and Construction App",
+  //   description:
+  //     "A wordpress application that provides solutions to common business and living challenges in environmentally efficient ways.",
+  //   stack: ["Wordpress", "CSS3", "JavaScript"],
+  //   demoLink: "https://englewoodcitydev.com/",
+  //   gitLink: "",
+  //   img: "englewood.png",
+  // },
 ];
 
 // eslint-disable-next-line no-unused-vars
