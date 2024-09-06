@@ -21,7 +21,11 @@ const Contact = () => {
           </div>
 
           <div className="socials">
-            <a className="link purple" href="mailto:rafaelokenyi@gmail.com">
+            <a
+              className="link purple"
+              href="mailto:rafaelokenyi@gmail.com"
+              target="_blank"
+            >
               <CiMail className="mail" />
               <p>Email me</p>
               <p></p>
@@ -40,6 +44,7 @@ const Contact = () => {
             <a
               className="link peach"
               href="https://www.linkedin.com/in/raphael-okenyi/"
+              target="_blank"
             >
               <CiLinkedin />
               <p>Connect with me on LinkedIn</p>
