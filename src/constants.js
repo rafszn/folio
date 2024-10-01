@@ -22,6 +22,8 @@ export const SKILLS = [
   "Firebase",
   "Puppeteer",
   "Git",
+  "TensorflowJs",
+  "SocketIo",
   "Wordpress",
 ];
 
@@ -63,10 +65,19 @@ export const PROJECTS = [
     img: "prizeless.png",
   },
   {
+    title: "ChatLink - A chat application",
+    description:
+      "A private chat app where users share a link to chat. No sign-ups, with auto-deleting rooms and media after 10 minutes of inactivity.",
+    stack: ["React", "NodeJS", "ExpressJS", "SocketIo"],
+    demoLink: "https://chatlinked.netlify.app",
+    gitLink: "https://github.com/rafszn/Chat-link",
+    img: "chatlink.png",
+  },
+  {
     title: "Vscan - Deepfake Detection App",
     description:
       "This web app is designed to detect deepfakes in only photos at the moment. It uses a pre-trained deepfake detection model and allows users to upload pictures for analysis.",
-    stack: ["React", "CSS3", "TensorFlow.js"],
+    stack: ["React", "CSS3", "TensorflowJs"],
     demoLink: "https://vscan.netlify.app",
     gitLink: "https://github.com/rafszn/DeepFake",
     img: "vscan.png",
@@ -80,44 +91,4 @@ export const PROJECTS = [
     gitLink: "https://github.com/rafszn/ECho",
     img: "echo.png",
   },
-
-  // {
-  //   title: "Hemam",
-  //   description:
-  //     "AN Agribusiness and energy company revolusionizing",
-  //   stack: ["React", "CSS3"],
-  //   demoLink: "https://irisai.netlify.app/",
-  //   gitLink: "https://github.com/rafszn/IrisAi",
-  //   img: "iris.png",
-  // },
-
-  // {
-  //   title: "Chat App",
-  //   description: "A chat app that allows users chat with friends and family",
-  //   stack: ["React", "Firebase"],
-  //   demoLink: "https://aas.netlify.app",
-  //   gitLink: "https://github.com/rafszn/DeepFake",
-  //   img: "aas.png",
-  // },
-
-  // {
-  //   title: "Real Estate and Construction App",
-  //   description:
-  //     "A wordpress application that provides solutions to common business and living challenges in environmentally efficient ways.",
-  //   stack: ["Wordpress", "CSS3", "JavaScript"],
-  //   demoLink: "https://englewoodcitydev.com/",
-  //   gitLink: "",
-  //   img: "englewood.png",
-  // },
 ];
-
-// eslint-disable-next-line no-unused-vars
-const DEEPFAKE = {
-  title: "DeepFake Detection App",
-  description:
-    "A deepfake detection app designed to identify and flag digital images, that have been manipulated or altered using deep learning techniques.",
-  stack: ["React js", "TensorFlow js"],
-  demoLink: "https://veriscan.netlify.app",
-  gitLink: "https://github.com/rafszn/DeepFake",
-  img: "",
-};

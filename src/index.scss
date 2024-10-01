@@ -43,6 +43,7 @@ a {
   flex-direction: column;
   align-items: center;
   position: relative;
+  user-select: none;
 }
 
 //TODO NAVIGATION BAR
@@ -163,10 +164,14 @@ header {
           border-radius: 50%;
           border: 4px solid white;
           box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.232);
-          transition: all 0.3s ease;
+          transition: all 0.35s ease;
+          z-index: 199;
 
           &:hover {
             scale: 1.05;
+            scale: 4;
+            transform: translate3d(0, 25px, 0);
+            border: 1px solid white;
           }
         }
       }

@@ -15,7 +15,8 @@ import { SiPuppeteer } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiOpenai } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
-
+import { TbBrandSocketIo } from "react-icons/tb";
+import { SiTensorflow } from "react-icons/si";
 
 export const skills = {
   HTML: <IoLogoHtml5 size={"25"} color="#E44D26" />,
@@ -35,4 +36,6 @@ export const skills = {
   Git: <FaGithub size={"25"} color="#F1502F" />,
   Firebase: <IoLogoFirebase size={"25"} color="#F57C00" />,
   Wordpress: <FaWordpress size={"25"} color="#21759B" />,
+  SocketIo: <TbBrandSocketIo size={"25"} color="#010101" />,
+  TensorflowJs: <SiTensorflow size={"25"} color="#FF6F00" />,
 };

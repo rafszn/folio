@@ -15,7 +15,7 @@ const Hero = () => {
             <span className="animate__animated animate__wobble">
               <IoMdHand />
             </span>
-            <img src="/assets/images/Raphael.jpg" alt="" />
+            <img src="/assets/images/rafael.jpg" alt="Raphael" />
           </div>
         </div>
 
