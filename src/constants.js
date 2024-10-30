@@ -60,7 +60,7 @@ export const PROJECTS = [
     description:
       "A platform for comparing prices across multiple online stores in Nigeria, helping users find the best deals and track price changes.",
     stack: ["Puppeteer", "React", "NodeJS", "ExpressJS", "MongoDB"],
-    demoLink: "https://prodprizeless.netlify.app",
+    demoLink: "https://prizeless.ng",
     gitLink: "https://github.com/rafszn/Prizeless",
     img: "prizeless.png",
   },
