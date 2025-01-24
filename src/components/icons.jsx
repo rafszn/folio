@@ -17,6 +17,10 @@ import { SiOpenai } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
 import { TbBrandSocketIo } from "react-icons/tb";
 import { SiTensorflow } from "react-icons/si";
+import { FaShopify } from "react-icons/fa";
+import { SiGithubactions } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
 
 export const skills = {
   HTML: <IoLogoHtml5 size={"25"} color="#E44D26" />,
@@ -38,4 +42,8 @@ export const skills = {
   Wordpress: <FaWordpress size={"25"} color="#21759B" />,
   SocketIo: <TbBrandSocketIo size={"25"} color="#010101" />,
   TensorflowJs: <SiTensorflow size={"25"} color="#FF6F00" />,
+  Shopify: <FaShopify size={"25"} color="#96BF48" />,
+  "Github Actions": <SiGithubactions size={"25"} color="#2088FF" />,
+  AWS: <FaAws size={"25"} color="#FF9900" />,
+  Docker: <FaDocker size={"25"} color="#1488C2" />,
 };

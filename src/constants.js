@@ -16,26 +16,29 @@ export const SKILLS = [
   "MongoDB",
   "TypeScript",
   "Tailwind",
-  "FramerMotion",
+  "Shopify",
   "PlayWright",
   "OpenAI",
   "Firebase",
   "Puppeteer",
   "Git",
+  "Github Actions",
+  "AWS",
+  "Docker",
   "TensorflowJs",
   "SocketIo",
   "Wordpress",
+  "FramerMotion",
 ];
 
 export const EXPERIENCES = [
   {
-    title: "React Developer - Switzel.co",
-    state: "Kubwa, Abuja",
-    description: `Worked in a team to develop a responsive React.js app for Hemam Synergy, boosting performance and user experience across devices. Also led UI improvements and optimized load times.`,
-    year: `2022`,
-    stack: ["React", "Tailwind"],
+    title: "Software Engineer - ICDAT",
+    state: "Ikeja, Lagos",
+    description: `specializing in building and deploying MERN applications. Collaborate with teams to ensure code quality, optimize performance, and deliver seamless user experiences.`,
+    year: `Nov 2023 – Present`,
+    stack: ["React js", "CSS"],
   },
-
   {
     title: "Wordpress Developer - Englewoodcity.inc (contract)",
     state: "Ikeja, Lagos",
@@ -44,13 +47,12 @@ export const EXPERIENCES = [
     year: `October 2023 – December 2023`,
     stack: ["Wordpress", "CSS3"],
   },
-
   {
-    title: "Software Engineer - ICDAT",
-    state: "Ikeja, Lagos",
-    description: `specializing in building and deploying MERN applications. Collaborate with teams to ensure code quality, optimize performance, and deliver seamless user experiences.`,
-    year: `Nov 2023 – 2024`,
-    stack: ["React js", "CSS"],
+    title: "React Developer - Switzel.co",
+    state: "Kubwa, Abuja",
+    description: `Worked in a team to develop a responsive React.js app for Hemam Synergy, boosting performance and user experience across devices. Also led UI improvements and optimized load times.`,
+    year: `2022`,
+    stack: ["React", "Tailwind"],
   },
 ];
 
@@ -65,30 +67,66 @@ export const PROJECTS = [
     img: "prizeless.png",
   },
   {
-    title: "ChatLink - A chat application",
+    title: "Lukamason -  Online Fashion Brand",
     description:
-      "A private chat app where users share a link to chat. No sign-ups, with auto-deleting rooms and media after 10 minutes of inactivity.",
-    stack: ["React", "NodeJS", "ExpressJS", "SocketIo"],
-    demoLink: "https://chatlinked.netlify.app",
+      "A Nigerian fashion brand offering bespoke and ready-to-wear clothing tailored to individual styles.",
+    stack: ["React", "NodeJS"],
+    demoLink: "https://www.lukamason.com",
     gitLink: "https://github.com/rafszn/Chat-link",
-    img: "chatlink.png",
+    img: "lukamason.png",
   },
   {
-    title: "Vscan - Deepfake Detection App",
+    title: "AgroHive -  An Agritech Platform",
     description:
-      "This web app is designed to detect deepfakes in only photos at the moment. It uses a pre-trained deepfake detection model and allows users to upload pictures for analysis.",
-    stack: ["React", "CSS3", "TensorflowJs"],
-    demoLink: "https://vscan.netlify.app",
-    gitLink: "https://github.com/rafszn/DeepFake",
-    img: "vscan.png",
+      "A platform that connects agricultural talents with opportunities. It helps businesses find skilled workers and helps job seekers find agricultural jobs.",
+    stack: ["React", "NodeJS"],
+    demoLink: "https://agrohive.co",
+    gitLink: "https://github.com/rafszn/Chat-link",
+    img: "agrohive.png",
   },
   {
-    title: "Echo - Speech recognition Web App",
+    title: "ByOla -  Shopify Store",
     description:
-      "This is a React application that allow users convert speech to text and upload audio files in various formats (e.g., mp3, wav) for transcription",
-    stack: ["React", "NodeJS", "ExpressJS", "OpenAI"],
-    demoLink: "https://e-cho.netlify.app",
-    gitLink: "https://github.com/rafszn/ECho",
-    img: "echo.png",
+      "An online store specializing in high-quality Nigerian-made fashion and lifestyle products.",
+    stack: ["Shopify"],
+    demoLink: "https://byola.co",
+    gitLink: "https://github.com/rafszn/Chat-link",
+    img: "byola.png",
   },
+  {
+    title: "Hemam Synergy - Agribusiness and Energy Company ",
+    description:
+      "A leading agribusiness and energy company in Africa. It helps smallholder farmers in Africa by providing them with access to technology, markets, training, and clean energy solutions.",
+    stack: ["React", "NodeJS", "ExpressJS"],
+    demoLink: "https://hemamsynergy.com",
+    gitLink: "https://github.com/rafszn/Chat-link",
+    img: "hemam.png",
+  },
+  // {
+  //   title: "ChatLink - A chat application",
+  //   description:
+  //     "A private chat app where users share a link to chat. No sign-ups, with auto-deleting rooms and media after 10 minutes of inactivity.",
+  //   stack: ["React", "NodeJS", "ExpressJS", "SocketIo"],
+  //   demoLink: "https://chatlinked.netlify.app",
+  //   gitLink: "https://github.com/rafszn/Chat-link",
+  //   img: "chatlink.png",
+  // },
+  // {
+  //   title: "Vscan - Deepfake Detection App",
+  //   description:
+  //     "This web app is designed to detect deepfakes in only photos at the moment. It uses a pre-trained deepfake detection model and allows users to upload pictures for analysis.",
+  //   stack: ["React", "CSS3", "TensorflowJs"],
+  //   demoLink: "https://vscan.netlify.app",
+  //   gitLink: "https://github.com/rafszn/DeepFake",
+  //   img: "vscan.png",
+  // },
+  // {
+  //   title: "Echo - Speech recognition Web App",
+  //   description:
+  //     "This is a React application that allow users convert speech to text and upload audio files in various formats (e.g., mp3, wav) for transcription",
+  //   stack: ["React", "NodeJS", "ExpressJS", "OpenAI"],
+  //   demoLink: "https://e-cho.netlify.app",
+  //   gitLink: "https://github.com/rafszn/ECho",
+  //   img: "echo.png",
+  // },
 ];

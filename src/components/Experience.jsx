@@ -6,7 +6,7 @@ const Experience = () => {
     <div className="experience">
       <h1>My Experience</h1>
 
-      {EXPERIENCES.map((experience, index) => (
+      {EXPERIENCES.reverse().map((experience, index) => (
         <div key={index}>
           <SingleExperience experience={experience} index={index} />
         </div>

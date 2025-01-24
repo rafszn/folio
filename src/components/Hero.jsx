@@ -45,7 +45,7 @@ const Hero = () => {
             text={"Download CV"}
             bg={"bg-white"}
             textColor={"text-black"}
-            href={"/assets/uchechukwu CV.pdf"}
+            href={"/assets/uchechukwu-cv.pdf"}
           />
           <Button
             icon={<FaGithub color="black" />}
